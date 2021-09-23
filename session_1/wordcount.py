@@ -47,7 +47,8 @@ import sys
 
 def helper(filename):
   with open(filename) as f:
-    content = f.read() 
+    content = f.read()
+    print(content)
   ': 2'
   words = content.lower().split()
 
